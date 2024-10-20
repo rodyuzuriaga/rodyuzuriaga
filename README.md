@@ -1,26 +1,102 @@
-## Hi there 👋
+<h1 align="center">Hi there, I'm <a href="https://www.blackcater.win/" target="_blank">Rody Uzuriaga</a> <img
+src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32" /></h1>
 
-<!--
-**rodyuzuriaga/rodyuzuriaga** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+ <p>
+  Leadership, Software Architecture, Development, Scjence & Technology
+  </p>
+ <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12cbe8a4-f55c-4b40-85bb-d8e1405e7b84/dex919k-65059397-8304-443b-a63b-1efffd329c4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyY2JlOGE0LWY1NWMtNGI0MC04NWJiLWQ4ZTE0MDVlN2I4NFwvZGV4OTE5ay02NTA1OTM5Ny04MzA0LTQ0M2ItYTYzYi0xZWZmZmQzMjljNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Bz40hW1TYNbqHbpY198IY_SKH__kx2P6bY16YDVx97o" alt="MAY YOU ENJOY IT" style="width:100%;">
 
-Here are some ideas to get you started:
+<p align="center">
+ 
+![License](https://img.shields.io/github/license/rodyuzuriaga/rodyuzuriaga?style=flat)
+ ![](https://komarev.com/ghpvc/?username=rodyuzuriaga&color=brightgreen)
+ ![](https://visitor-badge.glitch.me/badge?page_id=rodyuzuriaga.rodyuzuriaga)
+ <img src="https://badges.pufler.dev/visits/rodyuzuriaga/rodyuzuriaga?color=black&logo=github" />
+ <img src="https://img.shields.io/github/forks/rodyuzuriaga/rodyuzuriaga?style=social"></img>
+ 
+ [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+</p>
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rodyuzuriaga&show_icons=true&theme=radical)
+
+
+<div align="center">
+    <table>
+        <tr>
+            <td>
+                <pre>
+    💼 ISE Information Systems Engineering • Tech Enthusiast
+    💻 Back-end Development • Cloud Solutions • DevOps & Automation
+    📖 Software Architecture • Distributed Systems • Data Management
+    🎮 Tech • Music • Gaming • Series • Creative Coding • Art
+    🐾 Gadget Enthusiast • Water & Tinkering 💧🐤
+                </pre>
+            </td>
+            <td style="vertical-align: top; padding-left: 20px;">
+                <table>
+                    <tr><td><a href="README.md">🗽English</a></td></tr>
+                    <tr><td><a href="README_sp.md">🏔️Spanish</a></td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+
+---
+<p>
+  
+  </p>
+<h2 align="center">📊 My GitHub Stats</h2>
+<p>
+  
+  </p>
+
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rodyuzuriaga&theme=chartreuse_dark&utcOffset=8" />
+ 
+ <img width="69%" src="https://github-readme-streak-stats.herokuapp.com/?user=rodyuzuriaga&theme=chartreuse-dark&hide_border=true&hide_border=true" alt="rodyuzuriaga" />
+</div>
+
+---
+
+<h2 align="left">📊 My GitHub Stats</h2>
+
+<div align="center">
+  <a href="https://github.com/rodyuzuriaga/github-readme-stats">
+    <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodyuzuriaga&layout=compact&theme=chartreuse-dark&hide_border=true" />
+    <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=rodyuzuriaga&theme=chartreuse-dark&hide_border=true" />
+  </a>
+</div>
+
+
+
+
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
+
+
+<a href="https://www.rodyuzuriaga.com/"><img height="137px" src="https://github-readme-stats.vercel.app/api?username=rodyuzuriaga&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /><!-- wi*quL3fcV --><img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodyuzuriaga&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=6&exclude_repo=comp426,Redventures-Movie-Quotes&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" /></a>
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm,aws,gcp,azure,react,vue,flutter,html5,css3,javascript,typescript,vue,nuxtjs,react,nextjs,less,sass,stylus,tailwindcss,unocss,windicss,webpack,rollupjs,vite,eslint,prettier,git,gitlab,vscode,netlify,vercel,railway,render)](https://skillicons.dev)
+
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rodyuzuriaga&show_icons=true&theme=chartreuse-dark)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rodyuzuriaga&hide_progress=true)
 
+
 ![](https://komarev.com/ghpvc/?username=rodyuzuriaga&style=flat-square&label=Views)
 ![](https://badges.pufler.dev/visits/rodyuzuriaga/rodyuzuriaga?color=black&logo=github&style=flat-square)
+
+<p align="right">
+<img src="https://komarev.com/ghpvc/?username=rodyuzuriaga&style=plastic&label=Views"><img>
+<img src="https://badges.pufler.dev/visits/rodyuzuriaga/rodyuzuriaga?color=black&logo=github" />
+</p>
 
 ## My Teck ⚡Stack Technologies
 
@@ -55,19 +131,21 @@ Here are some ideas to get you started:
 ![Render](https://img.shields.io/badge/-Render-%2346E3B7?style=flat-square&logo=render&logoColor=ffffff)
 
 <h2> Github Stats </h2> 
-<a href="https://github.com/rodyuzuriaga/github-readme-stats"><img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodyuzuriaga&layout=compact&theme=tokyonight" /></a>
-<img width="55%" src="https://github-readme-streak-stats.herokuapp.com/?user=rodyuzuriaga&theme=tokyonight" alt="rodyuzuriaga" />
+<a href="https://github.com/rodyuzuriaga/github-readme-stats"><img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodyuzuriaga&layout=compact&theme=chartreuse-dark&hide_border=true" /></a>
+<img width="55%" src="https://github-readme-streak-stats.herokuapp.com/?user=rodyuzuriaga&theme=chartreuse-dark&hide_border=true&hide_border=true" alt="rodyuzuriaga" />
 <br/>
 
 ![](https://komarev.com/ghpvc/?username=rodyuzuriaga&color=brightgreen)
 ![](https://visitor-badge.glitch.me/badge?page_id=rodyuzuriaga.rodyuzuriaga)
 <img src="https://img.shields.io/github/forks/rodyuzuriaga/rodyuzuriaga?style=social"></img>
 
-
 # Hey 👋
 
 <div align="center">
-<img hight="300" width="700" alt="GIF" align="center" src="https://github.com/rodyuzuriaga/rodyuzuriaga/blob/master/assets/208593.gif">
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12cbe8a4-f55c-4b40-85bb-d8e1405e7b84/dex919k-65059397-8304-443b-a63b-1efffd329c4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyY2JlOGE0LWY1NWMtNGI0MC04NWJiLWQ4ZTE0MDVlN2I4NFwvZGV4OTE5ay02NTA1OTM5Ny04MzA0LTQ0M2ItYTYzYi0xZWZmZmQzMjljNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Bz40hW1TYNbqHbpY198IY_SKH__kx2P6bY16YDVx97o" alt="MAY YOU ENJOY IT" style="width:100%;">
+</div>
+
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3cf06a29-04a0-4466-9f83-ab6b9658149f/desgqkk-241d011f-7a40-41a8-b5b0-0b80c777a137.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNjZjA2YTI5LTA0YTAtNDQ2Ni05ZjgzLWFiNmI5NjU4MTQ5ZlwvZGVzZ3Fray0yNDFkMDExZi03YTQwLTQxYTgtYjViMC0wYjgwYzc3N2ExMzcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3hNUFWmMhYq0aJBnAJDTZEyUmcIQB530pDENIrmC9Jg" alt="MAY YOU ENJOY IT" style="width:100%;">
 </div>
 
 </br>
@@ -87,8 +165,8 @@ Here are some ideas to get you started:
 
 ### - Hobbies : 
 - ✨ Gaming Addict
-- ✨ Watching Anime
-- ✨ Reading Light Novels
+- ✨ Watching News
+- ✨ Reading Comics
 - ✨ Badminton (Neighbourhood Professional XD)
 
 </br>
@@ -149,3 +227,55 @@ If you want to reach out to me about anything, be it some doubt or just to hango
   </p>
 
 *************
+
+<h1 align="center">Hi there, I'm <a href="https://www.blackcater.win/" target="_blank">Rody Uzuriaga</a> <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32" /></h1>
+
+---
+
+<h1 align="left"><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
+
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rodyuzuriaga&theme=chartreuse_dark&utcOffset=8" />
+</div>
+
+---
+
+<h2 align="left">📊 My GitHub Stats</h2>
+
+<div align="center">
+  <a href="https://github.com/rodyuzuriaga/github-readme-stats">
+    <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodyuzuriaga&layout=compact&theme=chartreuse-dark&hide_border=true" />
+    <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=rodyuzuriaga&theme=chartreuse-dark&hide_border=true" />
+  </a>
+</div>
+
+---
+
+<h2 align="center">⚡ My Tech Stack ⚡</h2>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,html,css,wasm,aws,gcp,azure,react,vue,flutter,html5,css3,javascript,typescript,vue,nuxtjs,react,nextjs,less,sass,stylus,tailwindcss,unocss,windicss,webpack,rollupjs,vite,eslint,prettier,git,gitlab,vscode,netlify,vercel,railway,render" />
+</div>
+
+---
+
+<h2 align="center">👀 Visitor Count</h2>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=rodyuzuriaga&color=brightgreen" alt="Visitor count" />
+  <img src="https://badges.pufler.dev/visits/rodyuzuriaga/rodyuzuriaga?color=black&logo=github&style=flat-square" alt="Visit badge" />
+</div>
+
+<div align="right">
+  <img src="https://img.shields.io/github/forks/rodyuzuriaga/rodyuzuriaga?style=social" alt="GitHub Forks" />
+</div>
+
+---
+
+<div align="center">
+  <h2 align="center">Thanks for visiting! ✨</h2>
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12cbe8a4-f55c-4b40-85bb-d8e1405e7b84/dex919k-65059397-8304-443b-a63b-1efffd329c4b.gif" alt="MAY YOU ENJOY IT" style="width:100%;">
+</div>
