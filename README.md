@@ -26,7 +26,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
                 <pre>ㅤ
     💼 ISE Information Systems Engineering • Tech Enthusiast
     💻 Back-end Development • Cloud Solutions • DevOps & Automation
-    📖 Software Architecture • Distributed Systems • Data Management
+    📖 Software Architecture • Distributed Systems • Data Management    
     🎮 Tech • Music • Gaming • Series • Creative Coding • Art
     🐾 Gadget Enthusiast • Water & Tinkering 💧🐤
                 </pre>
