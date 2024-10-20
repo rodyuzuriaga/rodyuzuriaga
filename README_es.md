@@ -9,11 +9,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 
 <p align="center">
   
-![Licencia](https://img.shields.io/github/license/rodyuzuriaga/rodyuzuriaga?style=flat)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![](https://komarev.com/ghpvc/?username=rodyuzuriaga&color=brightgreen)
 ![](https://visitor-badge.glitch.me/badge?page_id=rodyuzuriaga.rodyuzuriaga)
 <img src="https://badges.pufler.dev/visits/rodyuzuriaga/rodyuzuriaga?color=black&logo=github" />
-<img src="https://img.shields.io/github/forks/rodyuzuriaga/rodyuzuriaga?style=social"></img>
+<img src="https://img.shields.io/github/stars/rodyuzuriaga.svg"></img>
   
 [![Impresionante](https://awesome.re/badge.svg)](https://awesome.re)
 </p>
