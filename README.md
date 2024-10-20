@@ -34,7 +34,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
             <td style="vertical-align: top; padding-left: 20px;">
                 <table>
                     <tr><td><a href="README.md">🗽English</a></td></tr>
-                    <tr><td><a href="README_sp.md">🏔️Spanish</a></td></tr>
+                    <tr><td><a href="README_es.md">🏔️Spanish</a></td></tr>
                 </table>
             </td>
         </tr>
