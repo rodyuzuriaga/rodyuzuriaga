@@ -52,10 +52,10 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 
 <div align="center">
   <img width="67.6%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rodyuzuriaga&theme=chartreuse_dark" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rodyuzuriaga&theme=chartreuse_dark" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rodyuzuriaga&theme=chartreuse_dark" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=rodyuzuriaga&theme=chartreuse_dark" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rodyuzuriaga&theme=chartreuse_dark&utcOffset=8" />
+  <img width="33.6%" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img width="33.6%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img width="33.6%" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=rodyuzuriaga&theme=chartreuse_dark" />
+  <img width="33.6%" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rodyuzuriaga&theme=chartreuse_dark&utcOffset=8" />
   <img width="67.6%" src="https://github-readme-streak-stats.herokuapp.com/?user=rodyuzuriaga&theme=chartreuse-dark&hide_border=true&hide_border=true" alt="rodyuzuriaga" />
 </div>
 
