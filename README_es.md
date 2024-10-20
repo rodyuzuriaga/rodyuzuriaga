@@ -27,7 +27,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
     💼 ISE Ingeniería de Sistemas de Información • Entusiasta de la Tecnología
     💻 Desarrollo Back-end • Soluciones en la Nube • DevOps y Automatización
     📖 Arquitectura de Software • Sistemas Distribuidos • Gestión de Datos
-    🎮 Tecnología • Música • Videojuegos • Series • Codificación Creativa • Arte
+    🎮 Tecnología • Música • Videojuegos • Series • Codificación Creativa • Arte    
     🐾 Entusiasta de los Gadgets • Agua y Experimentación 💧🐤
                 </pre>
             </td>
