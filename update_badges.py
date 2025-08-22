@@ -1,21 +1,18 @@
 import requests
-from bs4 import BeautifulSoup
 import re
 
 url = "https://www.credly.com/users/rody-angel-uzuriaga-aviles/badges.json?page=1"
 
-html = requests.get(url).text
-soup = BeautifulSoup(html, "html.parser")
+resp = requests.get(url)
+data = resp.json()
 
 badges = []
-
-for badge in soup.select('div[data-testid="badge-card"]'):
-    link_tag = badge.find("a", href=True)
-    img_tag = badge.find("img", src=True)
-    if link_tag and img_tag:
-        link = "https://www.credly.com" + link_tag["href"]
-        img = img_tag["src"]
-        name = img_tag.get("alt", "Badge")
+for item in data.get("data", []):
+    attributes = item.get("attributes", {})
+    link = "https://www.credly.com" + attributes.get("url", "")
+    img = attributes.get("image_url", "")
+    name = attributes.get("name", "Badge")
+    if link and img:
         badges.append(f'<a href="{link}"><img src="{img}" alt="{name}" height="100"/></a>')
 
 if not badges:
