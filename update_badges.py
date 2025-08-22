@@ -1,29 +1,51 @@
 import requests
-import re
+import os
+from pathlib import Path
+
+badges_dir = Path("badges")
+badges_dir.mkdir(exist_ok=True)
 
 url = "https://www.credly.com/users/rody-angel-uzuriaga-aviles/badges.json?page=1"
 headers = {"User-Agent": "Mozilla/5.0"}
 resp = requests.get(url, headers=headers)
 data = resp.json()
 
-badges = []
-for item in data.get("data", []):
-    attributes = item.get("badge_template", {})
-    img = attributes.get("image_url", item.get("earner_photo_url", ""))
-    if img:
-        badges.append(f'<img src="{img}" height="100"/>')
+badge_tags = []
 
-badges_html = " ".join(badges) if badges else "<p>No se encontraron insignias en Credly</p>"
+for item in data.get("data", []):
+    template = item.get("badge_template", {})
+    badge_name = template.get("name", "Badge")
+    badge_img_url = template.get("image_url", item.get("earner_photo_url", ""))
+    badge_link = template.get("global_activity_url", "")
+    
+    if not badge_img_url or not badge_link:
+        continue
+    
+    filename = f"{badge_name.replace(' ', '_').replace('/', '_')}.png"
+    local_path = badges_dir / filename
+
+    if not local_path.exists():
+        r = requests.get(badge_img_url, headers=headers)
+        if r.status_code == 200:
+            with open(local_path, "wb") as f:
+                f.write(r.content)
+
+    badge_tags.append(f'<a href="{badge_link}" target="_blank"><img src="{local_path.as_posix()}" height="100"/></a>')
+
+badges_html = "<div align='center'>" + " ".join(badge_tags) + "</div>"
 
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
 
+import re
 new_content = re.sub(
     r"<!--START_SECTION:badges-->.*<!--END_SECTION:badges-->",
-    f"<!--START_SECTION:badges-->\n<div align='center'>{badges_html}</div>\n<!--END_SECTION:badges-->",
+    f"<!--START_SECTION:badges-->\n{badges_html}\n<!--END_SECTION:badges-->",
     content,
     flags=re.S
 )
 
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(new_content)
+
+print("Badges actualizados correctamente")
