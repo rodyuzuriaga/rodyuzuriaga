@@ -5,9 +5,7 @@ import urllib.parse
 CREDLY_USER = "rody-angel-uzuriaga-aviles"
 CREDLY_API_URL = f"https://www.credly.com/users/{CREDLY_USER}/badges.json?page=1"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
-
 WESERV_URL = "https://images.weserv.nl/?url="
-
 BADGES_PER_ROW = 7
 
 def fetch_badges():
@@ -23,8 +21,8 @@ def fetch_badges():
         attributes = item.get("badge_template", {})
         name = attributes.get("name", "Badge")
         img = attributes.get("image_url", "")
-        # Aquí tomamos el enlace directo de la insignia del perfil
         link = item.get("recipient", {}).get("badge", {}).get("url") or item.get("global_activity_url", "")
+        
         if img and link:
             img_encoded = urllib.parse.quote(img, safe='')
             img_proxy = f"{WESERV_URL}{img_encoded}&h=100"
