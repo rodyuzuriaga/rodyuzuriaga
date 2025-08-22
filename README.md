@@ -41,7 +41,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 </div>
 
 <!--START_SECTION:badges-->
-<p>No se encontraron insignias en Credly</p>
+...
 <!--END_SECTION:badges-->
 
 <h2 align="center">⚡ My Tech Stack ⚡</h2>
