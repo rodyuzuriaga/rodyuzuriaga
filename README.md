@@ -42,7 +42,22 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 
 <h2 align="center">💡 My Certifications & Badges 💡</h2>
 <!--START_SECTION:badges-->
-<div align='center'></div>
+<div align="center">
+  <a href="https://skillsbuild.org/college-students/digital-credentials" target="_blank" title="Getting Started with Cybersecurity"><img src="https://images.credly.com/images/0462da0b-41f3-4542-b312-b2fc69869129/Getting_20Started_20With_20CybersecurityBadge.png" alt="Getting Started with Cybersecurity" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.netacad.com/courses/english-for-it1" target="_blank" title="English for IT 1"><img src="https://images.credly.com/images/77b1ea15-6287-4d97-8ecd-c5afa2d137ea/image.png" alt="English for IT 1" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.netacad.com/courses/english-for-it2" target="_blank" title="English for IT 2"><img src="https://images.credly.com/images/ca317486-3494-488b-b2a7-b49270d98f21/image.png" alt="English for IT 2" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.netacad.com/" target="_blank" title="Networking Academy Learn-A-Thon 2025"><img src="https://images.credly.com/images/8bf3e17f-1982-4539-a1f7-ba85c749407a/blob" alt="Networking Academy Learn-A-Thon 2025" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.netacad.com/courses/cyberops-associate" target="_blank" title="CyberOps Associate"><img src="https://images.credly.com/images/53f37f83-04a1-4935-9b1e-21a99cc6e1b2/CyberOpsAssoc.png" alt="CyberOps Associate" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.netacad.com/courses/python-essentials-1" target="_blank" title="Python Essentials 1"><img src="https://images.credly.com/images/68c0b94d-f6ac-40b1-a0e0-921439eb092e/image.png" alt="Python Essentials 1" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://certiprof.com/" target="_blank" title="Scrum Foundation Learner 2025"><img src="https://images.credly.com/images/ffa0f61c-3cdf-401c-b602-98150552c644/blob" alt="Scrum Foundation Learner 2025" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://skillsbuild.org/job-seekers/badges" target="_blank" title="Project Management Fundamentals"><img src="https://images.credly.com/images/15977e21-6a48-4c41-ac31-16883188a049/SkillsBuild_ProjectManagementFundamentals_Badge.png" alt="Project Management Fundamentals" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://cognitiveclass.ai/badges" target="_blank" title="Deep Learning using TensorFlow"><img src="https://images.credly.com/images/ba85e07d-8263-4f30-b39b-d79883ee558c/blob" alt="Deep Learning using TensorFlow" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.ibm.com/design/thinking/page/badges/ai#AI_Essentials" target="_blank" title="Enterprise Design Thinking - Team Essentials for AI"><img src="https://images.credly.com/images/09f644d1-eed2-4279-bc49-1e26cddc9d3d/Team_Essentials.png" alt="Enterprise Design Thinking - Team Essentials for AI" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.netacad.com/courses/ccna-introduction-networks" target="_blank" title="CCNA: Introduction to Networks"><img src="https://images.credly.com/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="CCNA: Introduction to Networks" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.ibm.com/design/thinking/page/badges/core-skills" target="_blank" title="Enterprise Design Thinking Co-Creator"><img src="https://images.credly.com/images/2700b813-82b8-4232-9b36-5dcd5cd24584/Badges_v8-08_Co-Creator.png" alt="Enterprise Design Thinking Co-Creator" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.ibm.com/design/thinking/page/badges/core-skills" target="_blank" title="Enterprise Design Thinking Practitioner"><img src="https://images.credly.com/images/bc08972c-3c7d-4b99-82a0-c94bcca36674/Badges_v8-07_Practitioner.png" alt="Enterprise Design Thinking Practitioner" height="100" style="margin:5px; display:inline-block;"></a>
+  <a href="https://www.netacad.com/courses/introduction-iot" target="_blank" title="Introduction to IoT"><img src="https://images.credly.com/images/fce226c2-0f13-4e17-b60c-24fa6ffd88cb/Intro2IoT.png" alt="Introduction to IoT" height="100" style="margin:5px; display:inline-block;"></a>
+</div>
 <!--END_SECTION:badges-->
 
 <h2 align="center">⚡ My Tech Stack ⚡</h2>
