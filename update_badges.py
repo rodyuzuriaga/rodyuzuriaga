@@ -8,6 +8,8 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 WESERV_URL = "https://images.weserv.nl/?url="
 
+BADGES_PER_ROW = 7
+
 def fetch_badges():
     resp = requests.get(CREDLY_API_URL, headers=HEADERS)
     if resp.status_code != 200:
@@ -37,9 +39,11 @@ def generate_badges_html(badges):
         return "<div align='center'>No se encontraron badges</div>"
 
     html = '<div align="center">\n'
-    for b in badges:
+    for i, b in enumerate(badges):
         html += f'  <a href="{b["link"]}" target="_blank" title="{b["name"]}">'
         html += f'<img src="{b["img"]}" alt="{b["name"]}" height="100" style="margin:5px; display:inline-block;"></a>\n'
+        if (i + 1) % BADGES_PER_ROW == 0:
+            html += "<br>\n"
     html += '</div>'
     return html
 
