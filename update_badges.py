@@ -9,13 +9,13 @@ data = resp.json()
 badges = []
 for item in data.get("data", []):
     template = item.get("badge_template", {})
-    img = template.get("image_url")
+    img = template.get("image_url")  # URL directa de la imagen
     link = template.get("global_activity_url") or template.get("vanity_url") or "#"
-    name = template.get("name", "Badge")
-    if img and link:
-        badges.append(f'<a href="{link}"><img src="{img}" alt="{name}" height="100"/><br>{name}</a>')
+    if img:
+        badges.append(f'<a href="{link}" target="_blank"><img src="{img}" alt="badge" height="100" style="margin:5px"/></a>')
 
-badges_html = "<br>".join(badges) if badges else "<p>No se encontraron insignias en Credly</p>"
+badges_html = f'<div style="display:flex; flex-wrap:wrap; justify-content:center;">{"".join(badges)}</div>' \
+    if badges else "<p>No se encontraron insignias en Credly</p>"
 
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
