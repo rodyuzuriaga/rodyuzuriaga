@@ -1,47 +1,59 @@
 import requests
-from pathlib import Path
 import re
 
-badges_dir = Path("badges")
-badges_dir.mkdir(exist_ok=True)
+CREDLY_USER = "rody-angel-uzuriaga-aviles"
+CREDLY_API_URL = f"https://www.credly.com/users/{CREDLY_USER}/badges.json?page=1"
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-url = "https://www.credly.com/users/rody-angel-uzuriaga-aviles/badges.json?page=1"
-headers = {"User-Agent": "Mozilla/5.0"}
-resp = requests.get(url, headers=headers)
-data = resp.json()
+def fetch_badges():
+    resp = requests.get(CREDLY_API_URL, headers=HEADERS)
+    if resp.status_code != 200:
+        print(f"Error al obtener datos de Credly: {resp.status_code}")
+        return []
 
-badge_tags = []
+    data = resp.json()
+    badges = []
 
-for item in data.get("data", []):
-    badge_name = item.get("badge_template", {}).get("name", "Badge")
-    badge_img_url = item.get("badge_template", {}).get("image_url", item.get("earner_photo_url", ""))
-    badge_link = item.get("url")
-    
-    if not badge_img_url or not badge_link:
-        continue
-    
-    filename = f"{badge_name.replace(' ', '_').replace('/', '_')}.png"
-    local_path = badges_dir / filename
+    for item in data.get("data", []):
+        attributes = item.get("badge_template", {})
+        name = attributes.get("name", "Badge")
+        img = attributes.get("image_url", "")
+        link = attributes.get("global_activity_url", "")
+        if img and link:
+            badges.append({
+                "name": name,
+                "img": img,
+                "link": link
+            })
+    return badges
 
-    if not local_path.exists():
-        r = requests.get(badge_img_url, headers=headers)
-        if r.status_code == 200:
-            with open(local_path, "wb") as f:
-                f.write(r.content)
-    
-    badge_tags.append(f'<a href="{badge_link}" target="_blank"><img src="{local_path.as_posix()}" height="100" style="margin:5px"/></a>')
+def generate_badges_html(badges):
+    if not badges:
+        return "<div align='center'>No se encontraron badges</div>"
 
-badges_html = "<div align='center'>" + "\n".join(badge_tags) + "</div>"
+    html = '<div align="center">\n'
+    for b in badges:
+        html += f'  <a href="{b["link"]}" target="_blank" title="{b["name"]}">'
+        html += f'<img src="{b["img"]}" alt="{b["name"]}" height="100" style="margin:5px; display:inline-block;"></a>\n'
+    html += '</div>'
+    return html
 
-with open("README.md", "r", encoding="utf-8") as f:
-    content = f.read()
+def update_readme(html):
+    with open("README.md", "r", encoding="utf-8") as f:
+        content = f.read()
 
-new_content = re.sub(
-    r"<!--START_SECTION:badges-->.*<!--END_SECTION:badges-->",
-    f"<!--START_SECTION:badges-->\n{badges_html}\n<!--END_SECTION:badges-->",
-    content,
-    flags=re.S
-)
+    new_content = re.sub(
+        r"<!--START_SECTION:badges-->.*<!--END_SECTION:badges-->",
+        f"<!--START_SECTION:badges-->\n{html}\n<!--END_SECTION:badges-->",
+        content,
+        flags=re.S
+    )
 
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(new_content)
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(new_content)
+    print("README.md actualizado correctamente con badges.")
+
+if __name__ == "__main__":
+    badges = fetch_badges()
+    html = generate_badges_html(badges)
+    update_readme(html)
