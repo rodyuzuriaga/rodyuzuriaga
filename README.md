@@ -40,6 +40,9 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
     </table>
 </div>
 
+<!--START_SECTION:badges-->
+<!--END_SECTION:badges-->
+
 <h2 align="center">⚡ My Tech Stack ⚡</h2>
 
 <div align="center">
