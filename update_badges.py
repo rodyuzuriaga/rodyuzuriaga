@@ -38,14 +38,15 @@ def generate_badges_html(badges):
     if not badges:
         return "<div align='center'>No se encontraron badges</div>"
 
-    html = '<table align="center" cellspacing="10">\n'
+    html = '<table align="center" cellspacing="10" cellpadding="0" style="border-collapse:collapse; border:none; background-color:transparent;">\n'
+    
     for i in range(0, len(badges), BADGES_PER_ROW):
         row_badges = badges[i:i+BADGES_PER_ROW]
         html += "  <tr>\n"
         for b in row_badges:
-            html += f'    <td align="center">'
+            html += f'    <td align="center" style="border:none; background-color:transparent;">'
             html += f'<a href="{b["link"]}" target="_blank" title="{b["name"]}">'
-            html += f'<img src="{b["img"]}" alt="{b["name"]}" height="100"></a></td>\n'
+            html += f'<img src="{b["img"]}" alt="{b["name"]}" height="100" style="display:block; margin:auto;"></a></td>\n'
         html += "  </tr>\n"
     html += "</table>\n"
     return html
