@@ -38,15 +38,15 @@ def generate_badges_html(badges):
     if not badges:
         return "<div align='center'>No se encontraron badges</div>"
 
-    html = '<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">\n'
+    html = ''
+    for i in range(0, len(badges), BADGES_PER_ROW):
+        row_badges = badges[i:i+BADGES_PER_ROW]
+        html += '<div style="display:flex; justify-content:center; gap:10px; margin-bottom:10px;">\n'
+        for b in row_badges:
+            html += f'  <a href="{b["link"]}" target="_blank" title="{b["name"]}" style="text-align:center;">'
+            html += f'<img src="{b["img"]}" alt="{b["name"]}" style="height:100px; width:auto; display:block; margin:auto;"></a>\n'
+        html += '</div>\n'
 
-    for b in badges:
-        html += f'  <a href="{b["link"]}" target="_blank" title="{b["name"]}" ' \
-                f'style="flex: 0 1 14%; text-align:center;">'
-        html += f'<img src="{b["img"]}" alt="{b["name"]}" ' \
-                f'style="width:100%; height:auto; display:block; margin:auto;"></a>\n'
-
-    html += '</div>\n'
     return html
 
 def update_readme(html):
