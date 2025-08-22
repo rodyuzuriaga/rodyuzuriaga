@@ -40,7 +40,7 @@ def generate_badges_html(badges):
 
     html = '<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">\n'
     for b in badges:
-        html += f'  <a href="{b["link"]}" target="_blank" title="{b["name"]}" style="text-align:center; flex: 0 0 auto;">'
+        html += f'  <a href="{b["link"]}" target="_blank" title="{b["name"]}" style="text-align:center; flex: 0 0 calc(100% / {BADGES_PER_ROW} - 10px); box-sizing:border-box;">'
         html += f'<img src="{b["img"]}" alt="{b["name"]}" style="height:100px; width:auto; display:block; margin:auto;"></a>\n'
     html += '</div>'
     return html
