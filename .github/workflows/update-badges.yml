@@ -5,26 +5,19 @@ on:
     - cron: "0 2 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   update-readme:
-    name: Update Readme with Credly badges
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install requests
 
       - name: Run badge updater
         run: python update_badges.py
@@ -34,6 +27,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git add README_es.md
           git commit -m "Update badges" || echo "No changes to commit"
           git push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
