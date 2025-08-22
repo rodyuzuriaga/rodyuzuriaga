@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-url = "https://www.credly.com/users/rody-angel-uzuriaga-aviles/badges"
+url = "https://www.credly.com/users/rody-angel-uzuriaga-aviles/badges.json?page=1"
 
 html = requests.get(url).text
 soup = BeautifulSoup(html, "html.parser")
