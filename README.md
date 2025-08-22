@@ -40,6 +40,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
     </table>
 </div>
 
+<h2 align="center">💡 My Certifications & Badges 💡</h2>
 <!--START_SECTION:badges-->
 <a href="https://skillsbuild.org/college-students/digital-credentials"><img src="https://images.credly.com/images/0462da0b-41f3-4542-b312-b2fc69869129/Getting_20Started_20With_20CybersecurityBadge.png" alt="Getting Started with Cybersecurity" height="100"/></a>
 <a href="https://www.netacad.com/courses/english-for-it1"><img src="https://images.credly.com/images/77b1ea15-6287-4d97-8ecd-c5afa2d137ea/image.png" alt="English for IT 1" height="100"/></a>
