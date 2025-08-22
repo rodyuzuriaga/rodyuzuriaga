@@ -1,9 +1,12 @@
 import requests
 import re
+import urllib.parse
 
 CREDLY_USER = "rody-angel-uzuriaga-aviles"
 CREDLY_API_URL = f"https://www.credly.com/users/{CREDLY_USER}/badges.json?page=1"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
+
+WESERV_URL = "https://images.weserv.nl/?url="
 
 def fetch_badges():
     resp = requests.get(CREDLY_API_URL, headers=HEADERS)
@@ -20,9 +23,11 @@ def fetch_badges():
         img = attributes.get("image_url", "")
         link = attributes.get("global_activity_url", "")
         if img and link:
+            img_encoded = urllib.parse.quote(img, safe='')
+            img_proxy = f"{WESERV_URL}{img_encoded}&h=100"
             badges.append({
                 "name": name,
-                "img": img,
+                "img": img_proxy,
                 "link": link
             })
     return badges
