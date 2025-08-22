@@ -38,15 +38,10 @@ def generate_badges_html(badges):
     if not badges:
         return "<div align='center'>No se encontraron badges</div>"
 
-    html = """
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
-"""
+    html = '<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">\n'
     for b in badges:
-        html += f'  <div style="flex:0 0 calc(100% / {BADGES_PER_ROW} - 10px); text-align:center;">'
-        html += f'<a href="{b["link"]}" target="_blank" title="{b["name"]}">'
-        html += f'<img src="{b["img"]}" alt="{b["name"]}" height="100" style="display:block; margin:auto;"></a>'
-        html += f'<div style="font-size:12px; margin-top:5px;">{b["name"]}</div>'
-        html += '</div>\n'
+        html += f'  <a href="{b["link"]}" target="_blank" title="{b["name"]}" style="flex: 1 0 calc(100% / {BADGES_PER_ROW} - 10px); max-width: calc(100% / {BADGES_PER_ROW} - 10px); text-align:center;">'
+        html += f'<img src="{b["img"]}" alt="{b["name"]}" style="width:100%; max-width:100px; height:auto;"></a>\n'
     html += '</div>'
     return html
 
