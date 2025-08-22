@@ -23,7 +23,8 @@ def fetch_badges():
         attributes = item.get("badge_template", {})
         name = attributes.get("name", "Badge")
         img = attributes.get("image_url", "")
-        link = attributes.get("global_activity_url", "")
+        # Aquí tomamos el enlace directo de la insignia del perfil
+        link = item.get("recipient", {}).get("badge", {}).get("url") or item.get("global_activity_url", "")
         if img and link:
             img_encoded = urllib.parse.quote(img, safe='')
             img_proxy = f"{WESERV_URL}{img_encoded}&h=100"
@@ -39,7 +40,6 @@ def generate_badges_html(badges):
         return "<div align='center'>No se encontraron badges</div>"
 
     html = '<table align="center" cellspacing="10" cellpadding="0" style="border-collapse:collapse; border:none; background-color:transparent;">\n'
-    
     for i in range(0, len(badges), BADGES_PER_ROW):
         row_badges = badges[i:i+BADGES_PER_ROW]
         html += "  <tr>\n"
