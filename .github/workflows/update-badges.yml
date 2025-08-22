@@ -1,36 +1,30 @@
-name: Update badges
+name: Update Badges
 
 on:
   schedule:
-    - cron: "0 2 * * *"
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-readme:
+  update-badges:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python
+      - uses: actions/checkout@v3
+      - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
-
-      - name: Install dependencies
+          python-version: '3.x'
+      - name: Instalar dependencias
         run: pip install requests
-
-      - name: Run badge updater
+      - name: Ejecutar script
         run: python update_badges.py
-
-      - name: Commit changes
+      - name: Commit y push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Update badges" || echo "No changes to commit"
           git push
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
