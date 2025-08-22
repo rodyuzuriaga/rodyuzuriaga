@@ -2,20 +2,26 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-url = "https://www.credly.com/users/rody-angel-uzuriaga-aviles"
+url = "https://www.credly.com/users/rody-angel-uzuriaga-aviles/badges"
 
 html = requests.get(url).text
 soup = BeautifulSoup(html, "html.parser")
 
 badges = []
-for badge in soup.select("div.cr-standard-grid-item"):
-    link = badge.find("a", href=True)
-    img = badge.find("img", src=True)
-    if link and img:
-        name = img["alt"]
-        badges.append(f'<a href="https://www.credly.com{link["href"]}"><img src="{img["src"]}" alt="{name}" height="100"/></a>')
 
-badges_html = "\n".join(badges)
+for badge in soup.select('div[data-testid="badge-card"]'):
+    link_tag = badge.find("a", href=True)
+    img_tag = badge.find("img", src=True)
+    if link_tag and img_tag:
+        link = "https://www.credly.com" + link_tag["href"]
+        img = img_tag["src"]
+        name = img_tag.get("alt", "Badge")
+        badges.append(f'<a href="{link}"><img src="{img}" alt="{name}" height="100"/></a>')
+
+if not badges:
+    badges_html = "<p>No se encontraron insignias en Credly</p>"
+else:
+    badges_html = "\n".join(badges)
 
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
