@@ -3,14 +3,17 @@ import re
 
 url = "https://www.credly.com/users/rody-angel-uzuriaga-aviles/badges.json?page=1"
 
-resp = requests.get(url)
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
+resp = requests.get(url, headers=headers)
 data = resp.json()
 
 badges = []
 for item in data.get("data", []):
-    attributes = item.get("attributes", {})
-    link = "https://www.credly.com" + attributes.get("url", "")
-    img = attributes.get("image_url", "")
+    attributes = item.get("badge_template", {})
+    link = attributes.get("global_activity_url", "")
+    img = attributes.get("image_url", item.get("image_url", ""))
     name = attributes.get("name", "Badge")
     if link and img:
         badges.append(f'<a href="{link}"><img src="{img}" alt="{name}" height="100"/></a>')
