@@ -14,6 +14,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
  ![](https://visitor-badge.glitch.me/badge?page_id=rodyuzuriaga.rodyuzuriaga)
  <img src="https://img.shields.io/github/stars/rodyuzuriaga.svg"></img>
  
+ [![Run pytest and SonarCloud Scan](https://github.com/Crypto-TII/claasp/actions/workflows/run-pytest-and-sonarcloud-scan.yaml/badge.svg?branch=FEATURE%2Fadd-skipjack-block-cipher&event=pull_request)](https://github.com/Crypto-TII/claasp/actions/workflows/run-pytest-and-sonarcloud-scan.yaml)
+ 
  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </p>
 </div>
